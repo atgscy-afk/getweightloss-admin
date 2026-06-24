@@ -12,10 +12,10 @@ const config = {
   tagline: 'User Manual & Documentation',
   favicon: 'img/favicon.ico',
 
-  url: 'https://terrence0205.github.io',
+  url: 'https://atgscy-afk.github.io',
   baseUrl: '/getweightloss-admin/',
 
-  organizationName: 'terrence0205',
+  organizationName: 'atgscy-afk',
   projectName: 'getweightloss-admin',
   deploymentBranch: 'gh-pages',
 
