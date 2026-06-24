@@ -1,0 +1,72 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a simple framework built on top of it.
+ * For more information, visit https://infima.dev/
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #007bff;
+  --ifm-color-primary-dark: #0056b3;
+  --ifm-color-primary-darker: #004085;
+  --ifm-color-primary-darkest: #002752;
+  --ifm-color-primary-light: #4da3ff;
+  --ifm-color-primary-lighter: #80c1ff;
+  --ifm-color-primary-lightest: #b3d9ff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-primary-color: #007bff;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #4da3ff;
+  --ifm-color-primary-dark: #0056b3;
+  --ifm-color-primary-darker: #004085;
+  --ifm-color-primary-darkest: #001a4d;
+  --ifm-color-primary-light: #80c1ff;
+  --ifm-color-primary-lighter: #b3d9ff;
+  --ifm-color-primary-lightest: #e6f2ff;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styling */
+.docs-hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.docs-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.help-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.help-card {
+  padding: 20px;
+  border: 2px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.help-card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+  transform: translateY(-2px);
+}

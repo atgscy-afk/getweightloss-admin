@@ -2,6 +2,8 @@
 
 Welcome! This manual guides support agents and sales agents through the core features of the GetWeightLoss admin portal.
 
+> 📖 **View the full documentation:** https://terrence0205.github.io/getweightloss-admin/
+
 ## Quick Start
 
 - **New to the system?** Start with [Getting Started](./01-getting-started.md)
